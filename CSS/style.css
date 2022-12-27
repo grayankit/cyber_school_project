@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(43, 43, 43);
+    color:whitesmoke;
+    overflow-x: hidden;
+}
+b{
+    background-color: cyan;
+    color:black
+}
+hr{
+    background-image: url("../hrbg.png");
+    width:2000px;
+    height: 0.3cm;
+}
+.navbar{
+    background-color: rgb(206, 197, 197);
+    border-radius: 25px;
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar span{
+    font-size: 1.8rem;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 4px;
+}
+.navbar ul li{
+    /*color: white;*/
+    list-style: none;
+    font-size: 1.3rem;
+    align-items: flex-end;
+}
+.navbar ul li a{
+    color: rgb(44, 19, 114);
+    display: block;
+    font-size: 1.6rem;
+    padding: 3px 22px;
+    border-radius: 22px;
+    text-decoration: none;
+ }
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+ }
+ .one{
+    display: flex;
+ }
+ .one img{
+    padding-top: 24px;
+ }
+ .one p{
+    padding-left:63px;
+    font-size: x-large;
+ }
+ .two h2{
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-left: 14px;
+    text-decoration: underline;
+ }
+ .two ol li{
+    font-size: 1.8rem;
+ }
+ .two ol li a{
+    text-decoration: none;
+    color: whitesmoke;
+ }
+ .two ol li a:hover{
+    text-decoration:underline;
+ }
+ .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .main img{
+    padding-top: 38px;
+ }
+ .main p{
+    font-size: x-large;
+    font-family: monospace;
+    padding: 21px;
+ }
+.main b{
+    text-decoration: underline;
+    background-color: cyan;
+}
+button{
+    font-size: 1.6rem;
+    color:whitesmoke;
+    background: black;
+    padding: 25px;
+    border: 2px white;
+    border-radius: 20px;
+}
+button:hover{
+    color:black;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .side img{
+    padding-top: 38px;
+ }
+ .side p{
+    font-size: x-large;
+    font-family: monospace;
+    padding: 21px;
+ }
+.side i{
+    font-weight: bolder;
+    text-decoration: double;
+    background-color: cyan;
+    color: black;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .bottom img{
+    padding-top: 38px;
+ }
+ .bottom p{
+    font-size: x-large;
+    font-family: monospace;
+    padding: 21px;
+ }
+.bottom i{
+    font-weight: bolder;
+    text-decoration: double;
+    background-color: cyan;
+    color: black;
+}
