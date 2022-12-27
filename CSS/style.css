@@ -139,3 +139,40 @@ button:hover{
     background-color: cyan;
     color: black;
 }
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .top img{
+    padding-top: 38px;
+ }
+ .top p{
+    font-size: x-large;
+    font-family: monospace;
+    padding: 21px;
+ }
+.top i{
+    font-weight: bolder;
+    text-decoration: double;
+    background-color: cyan;
+    color: black;
+}
+.corner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .corner img{
+    padding-top: 38px;
+ }
+ .corner p{
+    font-size: x-large;
+    font-family: monospace;
+    padding: 21px;
+ }
+.corner b{
+    text-decoration: double;
+    background-color: cyan;
+    color: black;
+}
